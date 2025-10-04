@@ -1,4 +1,4 @@
-package com.kcarbzz.myapplication.ui.theme
+package best.manuel.appue.ui.theme
 
 import android.app.Activity
 import android.os.Build

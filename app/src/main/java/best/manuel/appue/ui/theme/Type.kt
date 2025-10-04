@@ -1,4 +1,4 @@
-package com.kcarbzz.myapplication.ui.theme
+package best.manuel.appue.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

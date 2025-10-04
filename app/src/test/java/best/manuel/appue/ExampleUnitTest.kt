@@ -1,4 +1,4 @@
-package com.kcarbzz.myapplication
+package best.manuel.appue
 
 import org.junit.Test
 

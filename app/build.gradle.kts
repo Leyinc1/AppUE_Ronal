@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.kcarbzz.myapplication"
+    namespace = "best.manuel.appue"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.kcarbzz.myapplication"
+        applicationId = "best.manuel.appue"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -49,7 +49,9 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation("androidx.compose.material:material-icons-extended:+")
     implementation("androidx.navigation:navigation-compose:2.7.7")
+    implementation("io.coil-kt:coil-compose:2.5.0") // <-- DEPENDENCIA CORREGIDA
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
